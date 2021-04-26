@@ -63,8 +63,8 @@ void full_property_override(const std::string &prop, const char value[]) {
 }
 
 void vendor_load_properties() {
-    const char *fingerprint = "google/taimen/taimen:11/RP1A.201005.004.A1/6934943:user/release-keys";
-    const char *description = "taimen-user 11 RP1A.201005.004.A1 6934943 release-keys";
+    const char *fingerprint = "google/taimen/taimen:8.1.0/OPM1.171019.021/4565141:user/release-keys";
+    const char *description = "taimen-user 8.1.0 OPM1.171019.021 4565141 release-keys";
 
     full_property_override("build.fingerprint", fingerprint);
     full_property_override("build.description", description);
